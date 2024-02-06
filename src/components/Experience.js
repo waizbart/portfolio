@@ -35,7 +35,7 @@ export default function Experience({ color }) {
       setSelected(options[0].value);
     }
   }, [options]);
-  
+
   const handleSelected = (value) => {
     setSelected(value);
   };
@@ -58,12 +58,17 @@ export default function Experience({ color }) {
             </HStack>
             <Divider orientation="horizontal" />
           </Stack>
-          <Center px={4}>
-            <ButtonGroup variant="outline">
+          <Center px={{
+            base: 4,
+            md: 0
+          }}
+          >
+            <ButtonGroup variant="outline" flexWrap={"wrap"} >
               {options.map((option) => (
                 <Button
                   colorScheme={selected === option.value ? `${color}` : "gray"}
                   onClick={() => handleSelected(option.value)}
+                  mb={2}
                 >
                   {option.value}
                 </Button>
@@ -107,7 +112,7 @@ export default function Experience({ color }) {
                       </Flex>
                     </CardBody>
                     <CardFooter>
-                      <HStack spacing={2}>
+                      <HStack wrap="wrap" justify="flex-start" gap={2}>
                         {exp.badges.map((badge) => (
                           <Badge
                             key={badge.name}

@@ -1,3 +1,5 @@
-Category 1
-Category 2
-Category 3
+All
+Web development
+Bots / Automation
+IoT
+Artificial intelligence

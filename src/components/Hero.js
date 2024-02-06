@@ -18,11 +18,7 @@ export default function Header({ color }) {
     contactSection.scrollIntoView({ behavior: "smooth" });
   };
   const linkedin = () => {
-    window.open(
-                `${profile.linkedin}`,
-                "_blank",
-                "noreferrer,noopener"
-              );
+    window.open(`${profile.linkedin}`, "_blank", "noreferrer,noopener");
   };
   return (
     <>
@@ -33,7 +29,7 @@ export default function Header({ color }) {
         />
       </Heading>
 
-      <Container maxW={"3xl"} id="hero">
+      <Container maxW={"4xl"} id="hero">
         <Stack
           as={Box}
           textAlign={"center"}
@@ -43,10 +39,14 @@ export default function Header({ color }) {
         >
           <Heading
             fontWeight={600}
-            fontSize={{ base: "2xl", sm: "4xl", md: "6xl" }}
+            fontSize={{ base: "2xl", sm: "4xl", md: "5xl" }}
             lineHeight={"110%"}
           >
-            {profile.headerName} <br />
+            <Text
+              mb={4}
+            >
+              {profile.headerName} <br />
+            </Text>
             <Text as={"span"} color={`${color}.400`}>
               {profile.headerRole}
             </Text>
@@ -71,6 +71,7 @@ export default function Header({ color }) {
               px={6}
               _hover={{
                 bg: `${color}.500`,
+                transform: "scale(1.10)",
               }}
               onClick={linkedin}
             >

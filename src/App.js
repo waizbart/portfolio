@@ -13,7 +13,7 @@ function App() {
   // blue, cyan, gray, green, orange, pink, purple, red, teal, yellow
 
   // edit this variable to change the color theme
-  const color = "teal";
+  const color = "cyan";
 
   return (
     <>
@@ -21,7 +21,7 @@ function App() {
       <Header color={color} />
       <About color={color} />
       <Experience color={color} />
-      <Projects color={color} />
+      {/* <Projects color={color} /> */}
       <Contact color={color} />
       <Footer />
     </>
