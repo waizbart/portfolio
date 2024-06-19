@@ -19,6 +19,7 @@
   - Django [cyan]
   - AWS [purple]
   - Linux [teal]
+  - Tensorflow [yellow]
 - List Items:
   - Leading the development of different types of applications in teams of 4 to 6 developers.
   - Gathering requirements for projects using the most current technologies on the market.
