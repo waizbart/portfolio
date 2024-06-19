@@ -4,7 +4,7 @@
 ## Header
 - Hi, my name is Guilherme Waizbart. 
 - I'm a software engineer.
-- I build solutions for web.
+- I build fullstack solutions.
 
 ## About
 Working with systems development since 2019, I led and developed several applications that impacted thousands of consumers. Always concerned with the user experience and using data analysis to achieve high retention rates
