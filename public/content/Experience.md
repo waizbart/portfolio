@@ -20,6 +20,8 @@
   - AWS [purple]
   - Linux [teal]
   - Tensorflow [yellow]
+- List Items:
+  - Developing full-stack artificial intelligence applications for the legal sector.
 
 ## Mind Group
 - *Full Stack Tech Lead* | Dec 21 - Current
