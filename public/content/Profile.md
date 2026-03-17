@@ -7,13 +7,15 @@
 - I build fullstack solutions.
 
 ## About
-Working with systems development since 2019, I led and developed several applications that impacted thousands of consumers. Always concerned with the user experience and using data analysis to achieve high retention rates
+Fullstack engineer with 6+ years building and shipping production software across fintech, legal-tech,
+and AI-driven platforms. Experienced in end-to-end ownership from API design and database
+migrations to frontend delivery and observability. Comfortable working in regulated, high-trust
+environments where data integrity and security are non-negotiable.
 
 ## Contact
 Write your "Contact" section here.
 - LinkedIn: https://linkedin.com/in/guilherme-waizbart/
 - GitHub: https://github.com/waizbart
-- Email: guilherme@waizbart.dev
-
+- Email: guilhermewaizbart@gmail.com
 ## Logo
 - GW
