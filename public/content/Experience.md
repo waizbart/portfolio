@@ -1,28 +1,3 @@
-## Lopti
-- *Senior Software Engineer* | Jan 25 - Current
-- ![logo512](../assets/lopti_logo.jpeg)
-- Tags: All Web development Artificial intelligence
-- Badges:
-  - NodeJS [green]
-  - Express [blue]
-  - Prisma [red]
-  - MySql [yellow]
-  - MongoDB [orange]
-  - Javascript [gray]
-  - TypeScript [cyan]
-  - React [purple]
-  - React Native [pink]
-  - NextJs [black]
-  - Git [teal]
-  - Redis [red]
-  - Python [yellow]
-  - Django [cyan]
-  - AWS [purple]
-  - Linux [teal]
-  - Tensorflow [yellow]
-- List Items:
-  - Developing full-stack artificial intelligence applications for the legal sector.
-
 ## Mind Group
 - *Full Stack Tech Lead* | Dec 21 - Current
 - ![logo512](../assets/mind_logo.jpg)
@@ -51,9 +26,34 @@
   - Code review to maintain the quality of code written by developers.
   - Risk management and recovery of projects close to deadline.
   - Maintenance of multiple VPS and instances on AWS to host developed projects.
+ 
+## Lopti
+- *Senior Software Engineer* | Jan 25 - Mar 26
+- ![logo512](../assets/lopti_logo.jpeg)
+- Tags: All Web development Artificial intelligence
+- Badges:
+  - NodeJS [green]
+  - Express [blue]
+  - Prisma [red]
+  - MySql [yellow]
+  - MongoDB [orange]
+  - Javascript [gray]
+  - TypeScript [cyan]
+  - React [purple]
+  - React Native [pink]
+  - NextJs [black]
+  - Git [teal]
+  - Redis [red]
+  - Python [yellow]
+  - Django [cyan]
+  - AWS [purple]
+  - Linux [teal]
+  - Tensorflow [yellow]
+- List Items:
+  - Developing full-stack artificial intelligence applications for the legal sector.
 
 ## 99freelas
-- *Python Developer* | Jan 20 - Current
+- *Python Developer* | Jan 20 - Jan 24
 - ![logo512](../assets/99_logo.png)
 - Tags: All Artificial intelligence Bots / Automation
 - Badges:
