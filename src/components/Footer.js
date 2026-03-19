@@ -18,7 +18,7 @@ export default function Footer() {
         py={4}
         align="center"
       >
-        <Text>© 2024 Guilherme Waizbart. All rights reserved</Text>
+        <Text>© 2026 Guilherme Waizbart. All rights reserved</Text>
       </Container>
     </Box>
   );
