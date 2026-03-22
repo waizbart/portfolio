@@ -6,6 +6,7 @@ import {
   Button,
   Stack,
   Icon,
+  Image,
   useColorModeValue,
   createIcon,
 } from "@chakra-ui/react";
@@ -20,6 +21,7 @@ export default function Header({ color }) {
   const linkedin = () => {
     window.open(`${profile.linkedin}`, "_blank", "noreferrer,noopener");
   };
+  const profileSrc = useColorModeValue("/assets/profile-light.png", "/assets/profile.png");
   return (
     <>
       <Heading>
@@ -33,10 +35,23 @@ export default function Header({ color }) {
         <Stack
           as={Box}
           textAlign={"center"}
-          spacing={{ base: 8, md: 14 }}
-          pb={{ base: 20, md: 36 }}
-          pt={{ base: 36, md: 52 }}
+          spacing={{ base: 2, md: 2 }}
+          pb={{ base: 8, md: 10 }}
+          pt={{ base: 18, md: 15 }}
         >
+          <Box display="flex" justifyContent="center">
+            <Image
+              src={profileSrc}
+              alt="Profile"
+              maxH={{ base: "400px", md: "400px" }}
+              objectFit="contain"
+              loading="eager"
+              fetchPriority="high"
+              style={{
+                filter: "drop-shadow(0 10px 30px rgba(0,0,0,0.3)) drop-shadow(0 0 40px rgba(34,193,220,0.2))",
+              }}
+            />
+          </Box>
           <Heading
             fontWeight={600}
             fontSize={{ base: "2xl", sm: "4xl", md: "5xl" }}
