@@ -96,20 +96,20 @@ export default function Experience({ color }) {
                       </Flex>
                     </CardHeader>
                     <CardBody>
-                      <Flex>
-                        <List align="left" spacing={3}>
-                          {exp.listItems.map((item, index) => (
-                            <ListItem key={index}>
-                              <ListIcon
-                                boxSize={6}
-                                as={ChevronRightIcon}
-                                color={`${color}.500`}
-                              />
-                              {item}
-                            </ListItem>
-                          ))}
-                        </List>
-                      </Flex>
+                      <List spacing={3} w="100%">
+                        {exp.listItems.map((item, index) => (
+                          <ListItem key={index} display="flex" alignItems="flex-start">
+                            <ListIcon
+                              boxSize={6}
+                              as={ChevronRightIcon}
+                              color={`${color}.500`}
+                              flexShrink={0}
+                              mt="2px"
+                            />
+                            <Text textAlign="left">{item}</Text>
+                          </ListItem>
+                        ))}
+                      </List>
                     </CardBody>
                     <CardFooter>
                       <HStack wrap="wrap" justify="flex-start" gap={2}>

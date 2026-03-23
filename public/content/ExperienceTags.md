@@ -1,5 +1,6 @@
 All
 Web development
-Bots / Automation
-IoT
+Mobile
 Artificial intelligence
+Automation & Robotics
+Freelance

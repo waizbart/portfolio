@@ -15,7 +15,7 @@ export default function About({ color }) {
         <Container maxW={"3xl"} id="about">
           <Stack
             as={Box}
-            textAlign={"center"}
+            textAlign={"left"}
             spacing={{ base: 8, md: 14 }}
             pb={{ base: 20, md: 36 }}
           >

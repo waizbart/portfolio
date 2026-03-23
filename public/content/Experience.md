@@ -1,7 +1,7 @@
 ## Mind Group
 - *Full Stack Tech Lead* | Dec 21 - Current
 - ![logo512](../assets/mind_logo.jpg)
-- Tags: All Web development Artificial intelligence
+- Tags: All Web development Mobile Artificial intelligence
 - Badges:
   - NodeJS [green]
   - Express [blue]
@@ -30,7 +30,7 @@
 ## Lopti
 - *Senior Software Engineer* | Jan 25 - Mar 26
 - ![logo512](../assets/lopti_logo.jpeg)
-- Tags: All Web development Artificial intelligence
+- Tags: All Web development Mobile Artificial intelligence
 - Badges:
   - NodeJS [green]
   - Express [blue]
@@ -55,7 +55,7 @@
 ## 99freelas
 - *Python Developer* | Jan 20 - Jan 24
 - ![logo512](../assets/99_logo.png)
-- Tags: All Artificial intelligence Bots / Automation
+- Tags: All Artificial intelligence Automation & Robotics Freelance
 - Badges:
   - Python [green]
   - Selenium [blue]
@@ -81,7 +81,7 @@
 ## Omegabotz
 - *Python Developer* | Feb 22 - Feb 23
 - ![logo512](../assets/omega_logo.jpg)
-- Tags: All IoT Artificial inteligence
+- Tags: All Automation & Robotics Artificial intelligence
 - Badges:
   - Python [yellow]
   - OpenCV [purple]
@@ -89,3 +89,16 @@
   - Prototyping [yellow]
 - List Items:
   - Development of robots for competitions using intelligence and computer vision with Python.
+
+## Waizbart Dev
+- *Fullstack Developer* | Jan 21 - Jan 22
+- ![logo512](../assets/waizbart_logo.png)
+- Tags: All Web development Freelance
+- Badges:
+  - NodeJS [green]
+  - NextJs [black]
+  - Django [cyan]
+  - Python [yellow]
+  - ReactJS [purple]
+- List Items:
+  - Independent freelance development — built web applications and automation scripts for multiple clients using Python, JavaScript, and React.
