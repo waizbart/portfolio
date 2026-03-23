@@ -107,14 +107,14 @@ export default function Header({ color }) {
                 w={71}
                 position={"absolute"}
                 right={-71}
-                top={"10px"}
+                top={"18px"}
               />
               <Text
                 fontSize={"lg"}
                 fontFamily={"Caveat"}
                 position={"absolute"}
                 right={"-85px"}
-                top={"-15px"}
+                top={"-8px"}
                 transform={"rotate(10deg)"}
               >
                 Click me!
